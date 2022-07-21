@@ -1,0 +1,577 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+body{
+    background-color: rgba(10, 10, 9, 1);
+}
+
+.container{
+    /* border: 2px solid red; */
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name h4{
+    position: relative;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.nav{
+    /* border: 2px solid red; */
+    background-color: rgba(10, 10, 9, 0.925);
+    height: 60px;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+
+nav{
+    height: 0%;
+    position: sticky;
+}
+
+.name{
+    width: 95%;
+    position: relative;
+    /* top: 10%; */
+    left: 5%;
+    flex-basis: 40px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.intro h4{
+    margin-bottom:2%;
+}
+
+.intro {
+    top: 15%;
+    align-self: center;
+    position: relative;
+    width: 90%;
+    /* height: 70%; */
+    /* background-color: blue; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    flex-basis: 480px;
+    border-bottom: 1px solid rgba(245, 222, 179, 0.203);
+}
+
+.name1{
+    /* border: 2px solid red; */
+    flex-basis: 70%;
+    padding-top: 1%;
+}
+
+.home{
+    /* border: 2px solid red; */
+    flex-basis: 10%;
+    padding-top: 1.5%;
+}
+
+.home h4{
+    font-size: 120%;
+}
+
+.about{
+    /* border: 2px solid red; */
+    flex-basis: 10%;
+    padding-top: 1.5%;
+}
+
+.about h4{
+    font-size: 120%;
+}
+
+.contact{
+    /* border: 2px solid red; */
+    flex-basis: 10%;
+    padding-top: 1.5%;
+}
+
+.contact h4{
+    font-size: 120%;
+}
+
+.aboutm{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 270px;
+    height: 10%;
+    margin-bottom: 0%;
+}
+
+.skillsm{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 370px;
+    height: 15%;
+    margin-bottom: 0%;
+}
+
+.left-skills{
+    /* border: 2px solid red; */
+    font-size: 150%;
+    color: white;
+    flex-basis: 50%;
+}
+
+.left-skills h4{
+    font-size: 150%;
+    color: white;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+
+.right-skills h4{
+    font-size: 110%;
+    color: rgba(255, 255, 255, 0.635);
+}
+
+.right-skills{
+    /* border: 2px solid red; */
+    font-size: 150%;
+    color: white;
+    flex-basis: 50%;
+}
+
+.left-about{
+    /* border: 2px solid red; */
+    font-size: 150%;
+    color: white;
+    flex-basis: 50%;
+}
+
+.left-about h4{
+    font-size: 150%;
+    color: white;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+
+.right-about{
+    /* border: 2px solid red; */
+    font-size: 150%;
+    color: white;
+    flex-basis: 45%;
+}
+
+.skills2{
+    border-bottom: 1px solid rgba(245, 222, 179, 0.203);
+    padding-bottom: 2%;
+    margin-top: 2%;
+}
+
+.skill1 h4{
+    color: white;
+    font-size: 110%;
+    margin-top: 2%;
+}
+
+.skills2 h5{
+    color: rgba(255, 255, 255, 0.635);
+    font-size: 100%;
+}
+
+.name a{
+    text-decoration : none;
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    
+    body{
+        background-color: rgba(10, 10, 9, 1);
+    }
+    
+    .container{
+        /* border: 2px solid red; */
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .name1 h4{
+        position: relative;
+        color: #FFFFFF;
+        font-size: 120%;
+    }
+    
+    .nav{
+        /* border: 2px solid red; */
+        background-color: rgba(10, 10, 9, 0.925);
+        height: 40px;
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+    }
+    
+    nav{
+        height: 0%;
+        position: sticky;
+    }
+    
+    .name{
+        width: 95%;
+        position: relative;
+        left: 5%;
+        flex-basis: 40px;
+        display: flex;
+    }
+    
+    .intro h4{
+        margin-bottom:0%;
+    }
+    
+    .intro {
+        top: 15%;
+        align-self: center;
+        position: relative;
+        width: 90%;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 360%;
+        line-height: 80px;
+        text-align: center;
+        color: #FFFFFF;
+        flex-basis: 480px;
+        border-bottom: 1px solid rgba(245, 222, 179, 0.203);
+    }
+    
+    .name1{
+        flex-basis: 60%;
+        padding-top: 1%;
+    }
+    
+    .home{
+        flex-basis: 12%;
+        padding-top: 1.5%;
+    }
+    
+    .home h4{
+        font-size: 110%;
+    }
+    
+    .about{
+        /* border: 2px solid red; */
+        flex-basis: 12%;
+        padding-top: 1.5%;
+    }
+    
+    .about h4{
+        font-size: 110%;
+    }
+    
+    .contact{
+        /* border: 2px solid red; */
+        flex-basis: 0%;
+        padding-top: 1.5%;
+    }
+    
+    .contact h4{
+        font-size: 110%;
+    }
+    
+    .aboutm{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 270px;
+        height: 10%;
+        margin-bottom: 0%;
+    }
+    
+    .skillsm{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 370px;
+        height: 15%;
+        margin-bottom: 0%;
+    }
+    
+    .left-skills{
+        /* border: 2px solid red; */
+        /* font-size: 150%; */
+        color: white;
+        flex-basis: 50%;
+    }
+    
+    /* .left-skills h4{
+        font-size: 0%;
+        color: white;
+        margin-left: 20%;
+        margin-top: 0%;
+    } */
+    
+    /* .right-skills h4{
+        font-size: 110%;
+        color: rgba(255, 255, 255, 0.635);
+    } */
+    
+    /* .right-skills{
+        border: 2px solid red;
+        font-size: 150%;
+        color: white;
+        flex-basis: 50%;
+    } */
+    
+    .left-about{
+        /* border: 2px solid red; */
+        color: white;
+        flex-basis: 45%;
+    }
+    
+    .left-about h4{
+        font-size: 90%;
+        color: white;
+        margin-left: 20%;
+        margin-top: 0%;
+    }
+    
+    .right-about h4{
+        font-size: 85%;
+        color: rgba(255, 255, 255, 0.635);
+    }
+    
+    .right-about{
+        /* border: 2px solid red; */
+        font-size: 120%;
+        color: white;
+        flex-basis: 50%;
+    }
+    
+    .skill1{
+        padding-bottom: 1%;
+        margin-top: 2%;
+    }
+
+    .skills2 h5{
+        color: rgba(255, 255, 255, 0.635);
+        font-size: 85%;
+    }
+    
+    .name a{
+        text-decoration : none;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    
+    body{
+        background-color: rgba(10, 10, 9, 1);
+    }
+    
+    .container{
+        /* border: 2px solid red; */
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .name1 h4{
+        position: relative;
+        color: #FFFFFF;
+        font-size: 120%;
+    }
+    
+    .nav{
+        /* border: 2px solid red; */
+        background-color: rgba(10, 10, 9, 0.925);
+        height: 40px;
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+    }
+    
+    nav{
+        height: 0%;
+        position: sticky;
+    }
+    
+    .name{
+        width: 95%;
+        position: relative;
+        left: 5%;
+        flex-basis: 40px;
+        display: flex;
+    }
+    
+    .intro h4{
+        margin-bottom:0%;
+    }
+    
+    .intro {
+        top: 15%;
+        align-self: center;
+        position: relative;
+        width: 90%;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 450%;
+        line-height: 80px;
+        text-align: center;
+        color: #FFFFFF;
+        flex-basis: 480px;
+        border-bottom: 1px solid rgba(245, 222, 179, 0.203);
+    }
+    
+    .name1{
+        flex-basis: 60%;
+        padding-top: 1%;
+    }
+    
+    .home{
+        flex-basis: 12%;
+        padding-top: 1.5%;
+    }
+    
+    .home h4{
+        font-size: 110%;
+    }
+    
+    .about{
+        /* border: 2px solid red; */
+        flex-basis: 12%;
+        padding-top: 1.5%;
+    }
+    
+    .about h4{
+        font-size: 110%;
+    }
+    
+    .contact{
+        /* border: 2px solid red; */
+        flex-basis: 0%;
+        padding-top: 1.5%;
+    }
+    
+    .contact h4{
+        font-size: 110%;
+    }
+    
+    .aboutm{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 270px;
+        height: 10%;
+        margin-bottom: 0%;
+    }
+    
+    .skillsm{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 370px;
+        height: 15%;
+        margin-bottom: 0%;
+    }
+    
+    /* .left-skills{
+        color: white;
+        flex-basis: 50%;
+    } */
+    
+    /* .left-skills h4{
+        font-size: 0%;
+        color: white;
+        margin-left: 20%;
+        margin-top: 0%;
+    } */
+    
+    /* .right-skills h4{
+        font-size: 110%;
+        color: rgba(255, 255, 255, 0.635);
+    } */
+    
+    /* .right-skills{
+        border: 2px solid red;
+        font-size: 150%;
+        color: white;
+        flex-basis: 50%;
+    } */
+    
+    .left-about{
+        /* border: 2px solid red; */
+        color: white;
+        flex-basis: 45%;
+    }
+    
+    .left-about h4{
+        font-size: 120%;
+        color: white;
+        margin-left: 20%;
+        margin-top: 0%;
+    }
+    
+    .right-about h4{
+        font-size: 120%;
+        color: rgba(255, 255, 255, 0.635);
+    }
+    
+    .right-about{
+        /* border: 2px solid red; */
+        font-size: 120%;
+        color: white;
+        flex-basis: 50%;
+    }
+    
+    .skill1{
+        padding-bottom: 0%;
+        margin-top: 2%;
+    }
+
+    .skills2 h5{
+        color: rgba(255, 255, 255, 0.635);
+        font-size: 90%;
+    }
+    
+    .name a{
+        text-decoration : none;
+    }
+
+}
