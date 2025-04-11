@@ -1,8 +1,6 @@
-import { Mail, Twitter, CheckCircle } from "lucide-react";
 import { SiFigma, SiReact, SiTypescript, SiNextdotjs, SiBlender } from "react-icons/si"; // Importing actual icons
 import ProjectCard from "../components/ui/ProjectCard";
 import ToolIcon from "../components/ui/ToolIcon";
-import { Link } from "react-router-dom";
 
 const HomePage = () => {
   // Tools and technologies
