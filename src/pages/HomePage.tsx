@@ -1,5 +1,4 @@
 import { Mail, Twitter, CheckCircle } from "lucide-react";
-import Avatar from "../components/ui/Avatar";
 import { SiFigma, SiReact, SiTypescript, SiNextdotjs, SiBlender } from "react-icons/si"; // Importing actual icons
 import ProjectCard from "../components/ui/ProjectCard";
 import ToolIcon from "../components/ui/ToolIcon";
