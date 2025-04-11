@@ -2,6 +2,7 @@ import { SiFigma, SiReact, SiTypescript, SiNextdotjs, SiBlender } from "react-ic
 import ProjectCard from "../components/ui/ProjectCard";
 import ToolIcon from "../components/ui/ToolIcon";
 
+// fdsjfksld
 const HomePage = () => {
   // Tools and technologies
   const tools = [
