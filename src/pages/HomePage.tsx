@@ -1,4 +1,16 @@
-import { SiFigma, SiReact, SiTypescript, SiNextdotjs, SiBlender } from "react-icons/si"; // Importing actual icons
+import {
+  SiReact,
+  SiTypescript,
+  SiPostgresql,
+  SiSupabase,
+  SiFirebase,
+  SiPrisma,
+  SiPostman,
+  SiDocker,
+ SiGit,
+  SiGithub,
+  SiVercel,
+} from "react-icons/si";
 import ProjectCard from "../components/ui/ProjectCard";
 import ToolIcon from "../components/ui/ToolIcon";
 
@@ -6,11 +18,17 @@ import ToolIcon from "../components/ui/ToolIcon";
 const HomePage = () => {
   // Tools and technologies
   const tools = [
-    { name: "Figma", icon: <SiFigma size={24} color="#F24E1E" /> },
-    { name: "React", icon: <SiReact size={24} color="#61DAFB" /> },
-    { name: "TypeScript", icon: <SiTypescript size={24} color="#3178C6" /> },
-    { name: "Next.js", icon: <SiNextdotjs size={24} color="#000" /> },
-    { name: "Blender", icon: <SiBlender size={24} color="#F5792A" /> },
+    { name: "React", icon: <SiReact size={24} color="white" /> },
+    { name: "TypeScript", icon: <SiTypescript size={24} color="white" /> },
+    { name: "PostgreSQL", icon: <SiPostgresql size={24} color="white" /> },
+    { name: "Supabase", icon: <SiSupabase size={24} color="white" /> },
+    { name: "Firebase", icon: <SiFirebase size={24} color="white" /> },
+    { name: "Prisma", icon: <SiPrisma size={24} color="white" /> },
+    { name: "Postman", icon: <SiPostman size={24} color="white" /> },
+    { name: "Docker", icon: <SiDocker size={24} color="white" /> },
+    { name: "Git", icon: <SiGit size={24} color="white" /> },
+    { name: "GitHub", icon: <SiGithub size={24} color="white" /> },
+    { name: "Vercel", icon: <SiVercel size={24} color="white" /> },
   ];
 
   return (
