@@ -33,7 +33,6 @@ const HomePage = () => {
             gap: "var(--space-6)",
           }}
         >
-          <Avatar size="xl" alt="Your Name" />
           <div>
             <h1
               style={{
@@ -46,7 +45,6 @@ const HomePage = () => {
               }}
             >
               Vaibhav G
-
             </h1>
             <p
               style={{
@@ -64,13 +62,14 @@ const HomePage = () => {
       <section>
         <h2 style={{ fontSize: "1.25rem", fontWeight: 600 }}>About me</h2>
         <p style={{ marginBottom: "var(--space-4)" }}>
-          Hello! i'm Vaibhav, a web developer, an avid aviation enthusiast,
-          a fellow f1 fanatic, and a passionate learner. I love exploring new
-          tech and experimenting with it
+          Hello! i'm Vaibhav, a web developer, an avid aviation enthusiast, a
+          fellow f1 fanatic, and a passionate learner. I love exploring new tech
+          and experimenting with it
         </p>
         <p style={{ marginBottom: "var(--space-4)" }}>
-          Currently completing my Bachelor's in Information Science(IT) at 
-          Siddaganga Institute of Technology, Tumkur while developing personal projects.
+          Currently completing my Bachelor's in Information Science(IT) at
+          Siddaganga Institute of Technology, Tumkur while developing personal
+          projects.
         </p>
         <p>
           Feel free to reach out to me (
@@ -105,20 +104,19 @@ const HomePage = () => {
           }}
         >
           <ProjectCard
-            title="Interfaces Design System"
-            description="Currently in the alpha stage and under active development. If you're interested in gaining early access and are willing to provide valuable feedback to help shape its future, we'd love to have you on board."
+            title="Hacker News Backend & DevOps"
+            description="A TypeScript-based backend for a social news platform with authentication, posts, likes, and comments. Fully containerized with a CI/CD pipeline for Azure deployment"
             link="/projects"
           />
           <ProjectCard
-            title="Charts Supply"
-            description="Charts solution for Framer helps you build data-driven charts. It seamlessly integrates with Google Sheets and databases, allowing you to tell compelling stories with real data."
+            title="Restaurant Uptime Monitoring API"
+            description="A backend system that tracks restaurant uptime based on business hours and periodic status checks, providing detailed reports via APIs."
             link="/projects"
-            isExternal={true}
           />
           <ProjectCard
-            title="Dimensions Supply"
-            description="A 3D asset store. Resources for digital product designers. Coming in Q3 2025."
-            status="coming soon"
+            title="Local C++ Coding Platform"
+            description="A coding platform that enables users to solve C++ problems using their local g++ compiler with a custom-built code editor."
+            link="/projects"
           />
         </div>
       </section>

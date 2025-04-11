@@ -24,13 +24,13 @@ const Footer = () => {
             marginBottom: "1rem",
           }}
         >
-          {new Date().getFullYear()} © Your Name
+          {new Date().getFullYear()} © Vaibhav G
         </span>
 
         {/* Social Media Links */}
         <div style={{ display: "flex", justifyContent: "center", gap: "1rem" }}>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/21-Vaibhav"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "var(--color-text)", textDecoration: "none" }}
@@ -38,7 +38,7 @@ const Footer = () => {
             <Github size={20} />
           </a>
           <a
-            href="https://twitter.com/yourusername"
+            href="https://twitter.com/21Kafkaa"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "var(--color-text)", textDecoration: "none" }}
@@ -46,7 +46,7 @@ const Footer = () => {
             <Twitter size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/2112vaibhav/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: "var(--color-text)", textDecoration: "none" }}

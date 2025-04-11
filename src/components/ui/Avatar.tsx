@@ -1,12 +1,11 @@
 import * as RadixAvatar from "@radix-ui/react-avatar";
 
 interface AvatarProps {
-  src?: string;
   alt: string;
   size?: "sm" | "md" | "lg" | "xl";
 }
 
-const Avatar = ({ src, alt, size = "md" }: AvatarProps) => {
+const Avatar = ({ alt, size = "md" }: AvatarProps) => {
   const sizeMap = {
     sm: "40px",
     md: "64px",
@@ -35,16 +34,6 @@ const Avatar = ({ src, alt, size = "md" }: AvatarProps) => {
         height: sizeMap[size],
       }}
     >
-      <RadixAvatar.Image
-        src={src}
-        alt={alt}
-        style={{
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-          borderRadius: "inherit",
-        }}
-      />
       <RadixAvatar.Fallback
         style={{
           width: "100%",

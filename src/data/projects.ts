@@ -10,31 +10,33 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "design-system",
-    title: "Interfaces Design System",
+    id: "hackernews-backend",
+    title: "Hacker News Backend & DevOps",
     description:
-      "The Interfaces Design System is currently in the alpha stage and still under active development. If you're interested in gaining early access and are willing to provide valuable feedback to help shape its future, we'd love to have you on board.",
-    link: "/projects/design-system",
+      "The Hacker News Backend is a feature-complete implementation of a social news aggregation platform, supporting authentication, user management, posts, likes, and comments. The project is also fully containerized and integrated with a CI/CD pipeline for deployment on Azure.",
+    link: "/projects/hackernews-backend",
     status: "active",
     details:
-      "A comprehensive design system focusing on minimalist and modern UI components.",
+      "A TypeScript-based backend built with Hono and Prisma, utilizing Supabase (PostgreSQL) for storage. It features JWT-based authentication, paginated content retrieval, and role-based access controls. The DevOps aspect includes Dockerization and an automated CI/CD pipeline using GitHub Actions and Azure services.",
   },
   {
-    id: "charts-supply",
-    title: "Charts Supply",
+    id: "restaurant-uptime-monitor",
+    title: "Restaurant Uptime Monitoring API",
     description:
-      "Charts solution for Framer helps you build data-driven charts. It seamlessly integrates with Google Sheets and databases, allowing you to tell compelling stories with real data.",
-    externalLink: "https://charts.supply/",
+      "A backend system for monitoring restaurant uptime and downtime based on business hours and periodic status checks. Generates detailed reports for restaurant owners.",
+    link: "/projects/restaurant-uptime-monitor",
     status: "active",
-    details: "An integrated charting solution for designers and developers.",
+    details:
+      "Built with a database-backed approach to process real-time status data, business hours, and time zones. Uses linear interpolation to estimate uptime and downtime. Provides APIs for triggering report generation and fetching results in CSV format.",
   },
   {
-    id: "3d-assets",
-    title: "Dimensions Supply",
+    id: "local-cpp-coding-platform",
+    title: "Local C++ Coding Platform",
     description:
-      "A 3D asset store. Resources for digital product designers. Coming in Q3 2025.",
-    status: "coming soon",
+      "A coding platform that enables users to solve C++ problems using their local g++ compiler with a custom-built code editor.",
+    link: "/projects/local-cpp-coding-platform",
+    status: "active",
     details:
-      "A curated marketplace for high-quality 3D assets targeted at product designers.",
+      "Features a plugin-free code editor, real-time execution using a local compiler, and the ability for users to add their own coding challenges.",
   },
 ];
