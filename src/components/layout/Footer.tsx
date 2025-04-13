@@ -35,45 +35,23 @@ const Footer = () => {
             flexWrap: "wrap",
           }}
         >
-          <a
-            href="https://github.com/21-Vaibhav"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://github.com/21-Vaibhav" target="_blank" rel="noopener noreferrer">
             <Github size={20} />
           </a>
-          <a
-            href="https://twitter.com/21Kafkaa"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://twitter.com/21Kafkaa" target="_blank" rel="noopener noreferrer">
             <Twitter size={20} />
           </a>
-          <a
-            href="https://www.linkedin.com/in/2112vaibhav/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/2112vaibhav/" target="_blank" rel="noopener noreferrer">
             <Linkedin size={20} />
           </a>
-          <a
-            href="https://leetcode.com/u/21Vaibhav/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://leetcode.com/21-vaibhav/" target="_blank" rel="noopener noreferrer">
             <img src="/leetcode.svg" alt="LeetCode" width={20} height={20} />
           </a>
-          <a
-            href="https://monkeytype.com/profile/duhtony"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/monkeytype.svg"
-              alt="Monkeytype"
-              width={20}
-              height={20}
-            />
+          <a href="https://monkeytype.com/profile/21vaibhav" target="_blank" rel="noopener noreferrer">
+            <img src="/monkeytype.svg" alt="Monkeytype" width={20} height={20} />
+          </a>
+          <a href="https://21vaibhav.substack.com/" target="_blank" rel="noopener noreferrer">
+            <img src="/substack.svg" alt="Substack" width={20} height={20} />
           </a>
         </div>
 
