@@ -3,9 +3,8 @@ import {
   FaTwitter,
   FaLinkedin,
   FaKeyboard,
-  FaEnvelope,
 } from "react-icons/fa";
-import { SiLeetcode, SiSubstack } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
   return (
