@@ -16,7 +16,6 @@ const Footer = () => {
           margin: "0 auto",
         }}
       >
-        {/* Copyright */}
         <span
           style={{
             fontSize: "0.875rem",
@@ -28,12 +27,18 @@ const Footer = () => {
         </span>
 
         {/* Social Media Links */}
-        <div style={{ display: "flex", justifyContent: "center", gap: "1rem" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "1rem",
+            flexWrap: "wrap",
+          }}
+        >
           <a
             href="https://github.com/21-Vaibhav"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "var(--color-text)", textDecoration: "none" }}
           >
             <Github size={20} />
           </a>
@@ -41,7 +46,6 @@ const Footer = () => {
             href="https://twitter.com/21Kafkaa"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "var(--color-text)", textDecoration: "none" }}
           >
             <Twitter size={20} />
           </a>
@@ -49,13 +53,30 @@ const Footer = () => {
             href="https://www.linkedin.com/in/2112vaibhav/"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "var(--color-text)", textDecoration: "none" }}
           >
             <Linkedin size={20} />
           </a>
+          <a
+            href="https://leetcode.com/u/21Vaibhav/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/leetcode.svg" alt="LeetCode" width={20} height={20} />
+          </a>
+          <a
+            href="https://monkeytype.com/profile/duhtony"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/monkeytype.svg"
+              alt="Monkeytype"
+              width={20}
+              height={20}
+            />
+          </a>
         </div>
 
-        {/* Date & Time */}
         <div
           style={{
             marginTop: "0.75rem",
