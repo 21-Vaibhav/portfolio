@@ -17,19 +17,53 @@ import ToolIcon from "../components/ui/ToolIcon";
 // fdsjfksld
 const HomePage = () => {
   // Tools and technologies
-  const tools = [
-    { name: "React", icon: <SiReact size={24} color="white" /> },
-    { name: "TypeScript", icon: <SiTypescript size={24} color="white" /> },
-    { name: "PostgreSQL", icon: <SiPostgresql size={24} color="white" /> },
-    { name: "Supabase", icon: <SiSupabase size={24} color="white" /> },
-    { name: "Firebase", icon: <SiFirebase size={24} color="white" /> },
-    { name: "Prisma", icon: <SiPrisma size={24} color="white" /> },
-    { name: "Postman", icon: <SiPostman size={24} color="white" /> },
-    { name: "Docker", icon: <SiDocker size={24} color="white" /> },
-    { name: "Git", icon: <SiGit size={24} color="white" /> },
-    { name: "GitHub", icon: <SiGithub size={24} color="white" /> },
-    { name: "Vercel", icon: <SiVercel size={24} color="white" /> },
-  ];
+const tools = [
+  {
+    name: "React",
+    icon: <SiReact className="text-black dark:text-white" size={24} />,
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript className="text-black dark:text-white" size={24} />,
+  },
+  {
+    name: "PostgreSQL",
+    icon: <SiPostgresql className="text-black dark:text-white" size={24} />,
+  },
+  {
+    name: "Supabase",
+    icon: <SiSupabase className="text-black dark:text-white" size={24} />,
+  },
+  {
+    name: "Firebase",
+    icon: <SiFirebase className="text-black dark:text-white" size={24} />,
+  },
+  {
+    name: "Prisma",
+    icon: <SiPrisma className="text-black dark:text-white" size={24} />,
+  },
+  {
+    name: "Postman",
+    icon: <SiPostman className="text-black dark:text-white" size={24} />,
+  },
+  {
+    name: "Docker",
+    icon: <SiDocker className="text-black dark:text-white" size={24} />,
+  },
+  {
+    name: "Git",
+    icon: <SiGit className="text-black dark:text-white" size={24} />,
+  },
+  {
+    name: "GitHub",
+    icon: <SiGithub className="text-black dark:text-white" size={24} />,
+  },
+  {
+    name: "Vercel",
+    icon: <SiVercel className="text-black dark:text-white" size={24} />,
+  },
+];
+
 
   return (
     <div
