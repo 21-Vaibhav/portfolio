@@ -1,4 +1,11 @@
-import { Github, Twitter, Linkedin } from "lucide-react";
+import {
+  FaGithub,
+  FaTwitter,
+  FaLinkedin,
+  FaKeyboard,
+  FaEnvelope,
+} from "react-icons/fa";
+import { SiLeetcode, SiSubstack } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -26,7 +33,7 @@ const Footer = () => {
           {new Date().getFullYear()} © Vaibhav G
         </span>
 
-        {/* Social Media Links */}
+        {/* Social Links */}
         <div
           style={{
             display: "flex",
@@ -35,26 +42,45 @@ const Footer = () => {
             flexWrap: "wrap",
           }}
         >
-          <a href="https://github.com/21-Vaibhav" target="_blank" rel="noopener noreferrer">
-            <Github size={20} />
+          <a
+            href="https://github.com/21-Vaibhav"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={20} />
           </a>
-          <a href="https://twitter.com/21Kafkaa" target="_blank" rel="noopener noreferrer">
-            <Twitter size={20} />
+          <a
+            href="https://twitter.com/21Kafkaa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaTwitter size={20} />
           </a>
-          <a href="https://www.linkedin.com/in/2112vaibhav/" target="_blank" rel="noopener noreferrer">
-            <Linkedin size={20} />
+          <a
+            href="https://www.linkedin.com/in/2112vaibhav/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size={20} />
           </a>
-          <a href="https://leetcode.com/21-vaibhav/" target="_blank" rel="noopener noreferrer">
-            <img src="/leetcode.svg" alt="LeetCode" width={20} height={20} />
+          <a
+            href="https://leetcode.com/21Vaibhav/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SiLeetcode size={20} />
           </a>
-          <a href="https://monkeytype.com/profile/21vaibhav" target="_blank" rel="noopener noreferrer">
-            <img src="/monkeytype.svg" alt="Monkeytype" width={20} height={20} />
+          <a
+            href="https://monkeytype.com/profile/duhtony"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaKeyboard size={20} />
           </a>
-          <a href="https://21vaibhav.substack.com/" target="_blank" rel="noopener noreferrer">
-            <img src="/substack.svg" alt="Substack" width={20} height={20} />
-          </a>
+
         </div>
 
+        {/* Date & Time */}
         <div
           style={{
             marginTop: "0.75rem",
@@ -79,3 +105,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
