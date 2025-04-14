@@ -112,8 +112,8 @@ const tools = [
       <section>
         <h2 style={{ fontSize: "1.25rem", fontWeight: 600 }}>About me</h2>
         <p style={{ marginBottom: "var(--space-4)" }}>
-          Hello! i'm Vaibhav, a web developer, an avid aviation enthusiast, a
-          fellow f1 fanatic, and a passionate learner. I love exploring new tech
+          Hello! I'm Vaibhav, a web developer, an avid aviation enthusiast, a
+          f1 fanatic, and a passionate learner. I love exploring new tech
           and experimenting with it
         </p>
         <p style={{ marginBottom: "var(--space-4)" }}>
