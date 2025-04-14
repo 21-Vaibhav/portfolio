@@ -3,6 +3,7 @@ import MainLayout from "./components/layout/MainLayout";
 import HomePage from "./pages/HomePage";
 import ProjectsPage from "./pages/ProjectPage";
 import AboutPage from "./pages/AboutPage";
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
   return (
