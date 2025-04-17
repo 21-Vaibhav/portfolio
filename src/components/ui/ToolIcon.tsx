@@ -12,6 +12,7 @@ const ToolIcon = ({ name, icon }: ToolIconProps) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        
       }}
     >
       <div
@@ -24,6 +25,7 @@ const ToolIcon = ({ name, icon }: ToolIconProps) => {
           alignItems: "center",
           justifyContent: "center",
           border: "1px solid var(--color-border)",
+          
         }}
       >
         {icon}

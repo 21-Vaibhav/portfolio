@@ -112,9 +112,9 @@ const tools = [
       <section>
         <h2 style={{ fontSize: "1.25rem", fontWeight: 600 }}>About me</h2>
         <p style={{ marginBottom: "var(--space-4)" }}>
-          Hello! I'm Vaibhav, a web developer, an avid aviation enthusiast, a
-          f1 fanatic, and a passionate learner. I love exploring new tech
-          and experimenting with it
+          Hello! I'm Vaibhav, a web developer, an avid aviation enthusiast, a f1
+          fanatic, and a passionate learner. I love exploring new tech and
+          experimenting with it
         </p>
         <p style={{ marginBottom: "var(--space-4)" }}>
           Currently completing my Bachelor's in Information Science(IT) at
@@ -136,64 +136,66 @@ const tools = [
       </section>
 
       {/* Projects Section */}
-      <section>
-        <h2
-          style={{
-            fontSize: "1.25rem",
-            fontWeight: 600,
-            marginBottom: "var(--space-4)",
-          }}
-        >
-          What I build
-        </h2>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: "var(--space-4)",
-          }}
-        >
-          <ProjectCard
-            title="Hacker News Backend & DevOps"
-            description="A TypeScript-based backend for a social news platform with authentication, posts, likes, and comments. Fully containerized with a CI/CD pipeline for Azure deployment"
-            link="/projects"
-          />
-          <ProjectCard
-            title="Restaurant Uptime Monitoring API"
-            description="A backend system that tracks restaurant uptime based on business hours and periodic status checks, providing detailed reports via APIs."
-            link="/projects"
-          />
-          <ProjectCard
-            title="Local C++ Coding Platform"
-            description="A coding platform that enables users to solve C++ problems using their local g++ compiler with a custom-built code editor."
-            link="/projects"
-          />
-        </div>
-      </section>
+      <div className="projects-tools">
+        <section>
+          <h2
+            style={{
+              fontSize: "1.25rem",
+              fontWeight: 600,
+              marginBottom: "var(--space-4)",
+            }}
+          >
+            What I build
+          </h2>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "var(--space-4)",
+            }}
+          >
+            <ProjectCard
+              title="Hacker News Backend & DevOps"
+              description="A TypeScript-based backend for a social news platform with authentication, posts, likes, and comments. Fully containerized with a CI/CD pipeline for Azure deployment"
+              link="/projects"
+            />
+            <ProjectCard
+              title="Restaurant Uptime Monitoring API"
+              description="A backend system that tracks restaurant uptime based on business hours and periodic status checks, providing detailed reports via APIs."
+              link="/projects"
+            />
+            <ProjectCard
+              title="Local C++ Coding Platform"
+              description="A coding platform that enables users to solve C++ problems using their local g++ compiler with a custom-built code editor."
+              link="/projects"
+            />
+          </div>
+        </section>
 
-      {/* Tools Section */}
-      <section>
-        <h2
-          style={{
-            fontSize: "1.25rem",
-            fontWeight: 600,
-            marginBottom: "var(--space-4)",
-          }}
-        >
-          What I use
-        </h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
-            gap: "var(--space-4)",
-          }}
-        >
-          {tools.map((tool, index) => (
-            <ToolIcon key={index} name={tool.name} icon={tool.icon} />
-          ))}
-        </div>
-      </section>
+        {/* Tools Section */}
+        <section>
+          <h2
+            style={{
+              fontSize: "1.25rem",
+              fontWeight: 600,
+              marginBottom: "var(--space-4)",
+            }}
+          >
+            What I use
+          </h2>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(3, 1fr)",
+              gap: "var(--space-4)",
+            }}
+          >
+            {tools.map((tool, index) => (
+              <ToolIcon key={index} name={tool.name} icon={tool.icon} />
+            ))}
+          </div>
+        </section>
+      </div>
     </div>
   );
 };
