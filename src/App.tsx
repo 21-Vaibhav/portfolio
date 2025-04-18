@@ -9,7 +9,7 @@ import { Analytics } from "@vercel/analytics/react";
 const App = () => {
   return (
     <Router>
-      <MainLayout>
+      <MainLayout >
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
