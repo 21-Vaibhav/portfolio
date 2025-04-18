@@ -44,7 +44,7 @@ const Header = () => {
               flexWrap: "wrap",
             }}
           >
-            {["Home", "Projects", "About","Blog",].map((item) => (
+            {["Home", "Projects", "About",].map((item) => (
               <li key={item}>
                 <Link
                   to={`/${item.toLowerCase()}`}
