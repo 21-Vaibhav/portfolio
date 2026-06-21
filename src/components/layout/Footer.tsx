@@ -22,11 +22,27 @@ const Footer = () => {
           margin: "0 auto",
         }}
       >
+        {/* Freelance CTA */}
+        <span
+          style={{
+            fontSize: "0.9rem",
+            fontWeight: 500,
+            display: "block",
+            marginBottom: "0.5rem",
+          }}
+        >
+          Open to contract & freelance data projects —{" "}
+          <a href="mailto:vaibhav.govindraju@gmail.com" style={{ borderBottom: "1px solid var(--color-primary)" }}>
+            email me
+          </a>
+        </span>
+
         <span
           style={{
             fontSize: "0.875rem",
             display: "block",
             marginBottom: "1rem",
+            color: "var(--color-text-secondary)",
           }}
         >
           {new Date().getFullYear()} © Vaibhav G
@@ -45,6 +61,7 @@ const Footer = () => {
             href="https://github.com/21-Vaibhav"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="GitHub"
           >
             <FaGithub size={20} />
           </a>
@@ -52,6 +69,7 @@ const Footer = () => {
             href="https://twitter.com/21Kafkaa"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Twitter"
           >
             <FaTwitter size={20} />
           </a>
@@ -59,6 +77,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/2112vaibhav/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LinkedIn"
           >
             <FaLinkedin size={20} />
           </a>
@@ -66,6 +85,7 @@ const Footer = () => {
             href="https://leetcode.com/21Vaibhav/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="LeetCode"
           >
             <SiLeetcode size={20} />
           </a>
@@ -73,6 +93,7 @@ const Footer = () => {
             href="https://monkeytype.com/profile/duhtony"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="MonkeyType"
           >
             <FaKeyboard size={20} />
           </a>

@@ -16,7 +16,7 @@ const AboutPage = () => {
             marginTop: "var(--space-1)",
           }}
         >
-          Just a curious dev doing his thing.
+          Data Engineer building infrastructure for AI systems.
         </p>
       </section>
 
@@ -26,33 +26,46 @@ const AboutPage = () => {
           Hi, I'm Vaibhav 👋
         </h2>
         <p style={{ marginBottom: "var(--space-4)" }}>
-          A passionate web developer, aviation geek, Formula 1 fanatic, and an
-          endlessly curious tech explorer. I enjoy building performant and
-          meaningful digital experiences.
+          I am a Data Engineer at <strong>Quantiphi Analytics</strong> in Bengaluru (~1 year experience).
+          I focus on building scalable data infrastructure, designing ETL/ELT pipelines, and implementing Medallion Architecture.
+          My core expertise includes BigQuery, Apache Airflow, Python, PySpark, and Google Cloud Platform (GCP).
         </p>
         <p style={{ marginBottom: "var(--space-4)" }}>
-          I'm currently pursuing my Bachelor's in Information Science at{" "}
-          <strong>Siddaganga Institute of Technology, Tumkur</strong>. Outside
-          the classroom, you'll find me working on personal projects, tinkering
-          with backend stacks, and exploring dev tools.
+          I graduated with a BE in Information Science and Engineering from{" "}
+          <strong>Siddaganga Institute of Technology, Tumkur (2021–2025)</strong>.
+          I'm passionate about engineering data flows that feed machine learning models, vector databases, and real-time analytical systems.
         </p>
         <p style={{ marginBottom: "var(--space-4)" }}>
-          Whether it's APIs, databases, or DevOps — I love learning by doing.
-          I'm deeply driven by a need to figure things out and solve real-world
-          problems with code.
+          I am also open to freelance or contract data engineering projects, helping startups establish their initial data lakes,
+          automate workflows, and construct analytical dashboards.
         </p>
         <p>
           Feel free to say hi (
-          <a href="mailto:vaibhav.1si21is057@gmail.com">Email</a> /
+          <a href="mailto:vaibhav.govindraju@gmail.com">Email</a> /{" "}
           <a
-            href="https://twitter.com/21kafkaa"
+            href="https://www.linkedin.com/in/2112vaibhav/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            X
+            LinkedIn
           </a>
           ) — always up for a good chat.
         </p>
+      </section>
+
+      {/* Certifications */}
+      <section>
+        <h2 style={{ fontSize: "1.25rem", fontWeight: 600 }}>Certifications</h2>
+        <ul
+          style={{
+            paddingLeft: "1.25rem",
+            listStyleType: "disc",
+            color: "var(--color-text-secondary)",
+          }}
+        >
+          <li>Google Cloud Certified - Associate Cloud Engineer (ACE)</li>
+          <li>Google Cloud Certified - Associate Data Practitioner (ADP)</li>
+        </ul>
       </section>
 
       {/* Bonus: Interests section */}

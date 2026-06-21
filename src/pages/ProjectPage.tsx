@@ -80,6 +80,35 @@ const ProjectsPage = () => {
               <p style={styles.cardDetails}>{project.details}</p>
             )}
 
+            {/* Tags */}
+            {project.tags && project.tags.length > 0 && (
+              <div
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  gap: "0.5rem",
+                  marginTop: "0.75rem",
+                  marginBottom: "0.75rem",
+                }}
+              >
+                {project.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    style={{
+                      fontSize: "0.7rem",
+                      color: "rgba(255, 255, 255, 0.6)",
+                      border: "1px solid rgba(255, 255, 255, 0.15)",
+                      padding: "2px 6px",
+                      borderRadius: "4px",
+                      backgroundColor: "rgba(255, 255, 255, 0.03)",
+                    }}
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+
             {/* Links */}
             <div style={styles.linkContainer}>
               {project.link && (

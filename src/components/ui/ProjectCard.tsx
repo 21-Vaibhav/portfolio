@@ -8,6 +8,7 @@ interface ProjectCardProps {
   link?: string;
   isExternal?: boolean;
   status?: "active" | "coming soon";
+  tags?: string[];
 }
 
 const ProjectCard = ({
@@ -16,6 +17,7 @@ const ProjectCard = ({
   link,
   isExternal = false,
   status,
+  tags,
 }: ProjectCardProps) => {
   const cardStyle = {
     padding: "var(--space-4)",
@@ -62,6 +64,33 @@ const ProjectCard = ({
       >
         {description}
       </p>
+
+      {tags && tags.length > 0 && (
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "var(--space-1)",
+            marginTop: "var(--space-3)",
+          }}
+        >
+          {tags.map((tag) => (
+            <span
+              key={tag}
+              style={{
+                fontSize: "0.7rem",
+                color: "var(--color-text-secondary)",
+                border: "1px solid var(--color-border)",
+                padding: "2px 6px",
+                borderRadius: "4px",
+                backgroundColor: "var(--color-background)",
+              }}
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
 
       {status && (
         <div style={{ marginTop: "var(--space-2)" }}>

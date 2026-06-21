@@ -44,18 +44,25 @@ const Header = () => {
               flexWrap: "wrap",
             }}
           >
-            {["Home", "Projects", "About",].map((item) => (
-              <li key={item}>
-                <Link
-                  to={`/${item.toLowerCase()}`}
+            {[
+              { name: "Home", target: "/#hero" },
+              { name: "Services", target: "/#services" },
+              { name: "Projects", target: "/#projects" },
+              { name: "Skills", target: "/#skills" },
+              { name: "About", target: "/#about" },
+              { name: "Contact", target: "/#contact" }
+            ].map((item) => (
+              <li key={item.name}>
+                <a
+                  href={item.target}
                   style={{
                     color: "var(--color-text)",
                     textDecoration: "none",
                     fontSize: "0.9rem",
                   }}
                 >
-                  {item}
-                </Link>
+                  {item.name}
+                </a>
               </li>
             ))}
           </ul>
